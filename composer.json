@@ -1,0 +1,19 @@
+{
+    "name": "laravelrdkafka/rdkafka",
+    "description": "the dkafka package for laravel",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rainseason",
+            "email": "521fx@sina.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaravelRdkafka\\Rdkafka\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
